@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    background-color: blanchedalmond;
+    padding: 3px 15px;
+    border: 1px solid white;
+    font-weight: 500;
+    width: fit-content;
+
+}
+
+button:hover {
+    background-color: azure;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .Logo {
+    font-size: larger;
+    color: black;
+    font-weight: 900;
+}
+
+.li {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px;
+    gap: 60px;
+}
+
+.search1 {
+    padding: 2px 15px;
+    border: 1px solid black;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.section_field {
+    display: flex;
+}
+.section_field .left_section{
+    margin: 150px;
+}
+
+section .right_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0px 200px;
+    margin: 0px 200px;
+    border:2px 2px 2px 2px;
+}
+.right_section button{
+    margin: 10px;
+}
